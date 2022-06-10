@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'utils/constanta.dart';
 import 'pages/HomePage.dart';
 
 void main() => runApp(HaverVA());
@@ -10,9 +9,9 @@ class HaverVA extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       //
-      theme: ThemeData(
-        primarySwatch: kPrimaryColor,
-      ),
+      // theme: ThemeData(
+      //   primarySwatch: kPrimaryColor,
+      // ),
       home: HomePage(title: 'Haver VA'),
     );
   }
