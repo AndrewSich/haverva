@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'dart:ui';
+import 'utils/constanta.dart';
 import 'pages/HomePage.dart';
 
 void main() => runApp(HaverVA());
