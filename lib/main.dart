@@ -11,6 +11,7 @@ class HaverVA extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: LightThemeData(context),
+      darkTheme: DarkThemeData(context),
       // theme: ThemeData(
       //   primarySwatch: kPrimaryColor,
       // ),

@@ -7,3 +7,9 @@ ThemeData LightThemeData(BuildContext context) {
     primaryColor: kPrimaryColor,
   );
 }
+
+ThemeData DarkThemeData(BuildContext context) {
+  return ThemeData.dark().copyWith(
+    primaryColor: kPrimaryColor,
+  );
+}
