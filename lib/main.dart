@@ -11,7 +11,7 @@ class HaverVA extends StatelessWidget {
     return MaterialApp(
       //
       theme: ThemeData(
-        primarySwatch: Colors(0xFF00BF6D),
+        primarySwatch: kPrimaryColor,
       ),
       home: HomePage(title: 'Haver VA'),
     );
