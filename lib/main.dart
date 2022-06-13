@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'utils/theme.dart';
-import 'pages/HomePage.dart';
+import 'splash_screen.dart';
 
 void main() => runApp(HaverVA());
 
@@ -15,7 +15,7 @@ class HaverVA extends StatelessWidget {
       // theme: ThemeData(
       //   primarySwatch: kPrimaryColor,
       // ),
-      home: HomePage(title: 'Haver VA'),
+      home: Splash_Screen(),
     );
   }
 }
