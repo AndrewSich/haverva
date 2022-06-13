@@ -7,6 +7,7 @@ ThemeData LightThemeData(BuildContext context) {
     primaryColor: kPrimaryColor,
     scaffoldBackgroundColor: Colors.white,
     //appBarTheme: AppBarTheme,
+    iconTheme: IconThemeData(color: kContentColorLightTheme),
     colorScheme: ColorScheme.light(
       primary: kPrimaryColor,
       secondary: kSecondaryColor,
