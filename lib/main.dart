@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'utils/theme.dart';
+import 'utils/constanta.dart';
 //import 'splash_screen.dart';
 
 void main() => runApp(HaverVA());
@@ -20,8 +21,9 @@ class HaverVA extends StatelessWidget {
 class Splash_Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
+    return Scaffold(
+      backgroundColor: kPrimaryColor,
+      body: Center(
         child: Text('by Andrew Setyawan'),
       ),
     );
