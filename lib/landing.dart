@@ -1,14 +1,15 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'utils/constanta.dart';
 
 import 'pages/HomePage.dart';
 
-class Splash_Screen extends StatefulWidget {
+class Landing extends StatefulWidget {
   @override
-  _Splash_ScreenState createState() => _Splash_ScreenState();
+  _Landing_State createState() => _Landing_State();
 }
 
-class _Splash_ScreenState extends State<Splash_Screen> {
+class _Landing_State extends State<Landing> {
   @override
   void initState() {
     super.initState();
@@ -17,9 +18,9 @@ class _Splash_ScreenState extends State<Splash_Screen> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      //color: Colors.white,
-      child: Center(
+    return Scaffold(
+      backgroundColor: kPrimaryColor,
+      body: Center(
         child: Text('by Andrew Setyawan'),
       ),
     );
